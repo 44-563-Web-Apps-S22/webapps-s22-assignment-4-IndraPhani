@@ -1,0 +1,74 @@
+.speech {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+.direction {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15 px;
+    color: red;
+    background-color: azure;
+}
+.direction:hover{
+    background-color: aqua;
+    color: grey;
+    text-shadow: 2px 2px 5px red;
+}    
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;}
+#SIL{
+    color: blue;
+} 
+#HYA{
+    color: rgb(184, 43, 43);
+} 
+#SCA{
+    color: rgb(125, 216, 83);
+} 
+#SIL{
+    color: rgb(158, 231, 21);
+} 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+th {
+    text-align: center;
+    color: rgba(4, 54, 24, 0.979);
+    padding: 15px;
+}
+td {
+    text-align: center;
+    color: rgb(174, 0, 255);
+    padding: 15px;
+}
+.name:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-style: dotted;
+}
+ul.navbar-horizontal {
+    list-style-type:none;
+    margin: 20px;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float: centre; 
+    background-color:rgb(219, 22, 22);
+}
+ul.navbar-horizontal a {
+    text-align: center;
+    color: rgb(205, 231, 243);
+    display:block;
+    padding:20px;
+    margin: 10px;
+}
+ul.navbar-horizontal a:hover {  
+    background-color:rgb(8, 8, 7);
+    color:white;
+}
+.icon {
+    float: right;
+}
